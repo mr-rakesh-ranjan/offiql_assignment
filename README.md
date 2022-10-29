@@ -94,3 +94,7 @@ Response Body -
 ### Number of email send by a user
 
 url endpoint - http://localhost:9090/email/count?user=1
+
+Request Body - Not required
+
+Response Body - 5
