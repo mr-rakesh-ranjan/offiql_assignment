@@ -51,4 +51,9 @@ public class MyController {
         this.emailService.addEmail(email);
         return email;
     }
+
+    @GetMapping("email/count/user={userId}")
+    public long getEmail(@PathVariable("userId") String userId){
+        return this.emailService.countEmail(Long.parseLong(userId));
+    }
 }
