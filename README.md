@@ -95,6 +95,8 @@ Response Body -
 
 url endpoint - http://localhost:9090/email/count?user=1
 
+Method - GET
+
 Request Body - Not required
 
 Response Body - 5
